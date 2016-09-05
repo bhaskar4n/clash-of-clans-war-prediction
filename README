@@ -1,7 +1,6 @@
 simple neural network with back propagation algorithm.
 #####example neural network
 A simple neural network with one input layer, one hidden layer,  one output layter 
-<img src="https://github.com/bhaskar4n/neural-networks/blob/master/neural_network.png"/>
-
+<img src="https://raw.githubusercontent.com/bhaskar4n/neural-networks/master/neural_network.png"/>
 #####output
-<img src="https://github.com/bhaskar4n/neural-networks/blob/master/net.png"/>
+<img src="https://raw.githubusercontent.com/bhaskar4n/neural-networks/master/net.png"/>
