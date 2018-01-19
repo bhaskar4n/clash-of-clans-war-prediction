@@ -23,5 +23,4 @@ opponent clan:
  
 outputs:
 win = 1 or lose = 0
-
-for your information, i have considered win as 1 and lose as 0.
+for your information, i have considered win as 1 and lose as 0
