@@ -6,8 +6,8 @@ import sys
 # sys.setdefaultencoding() does not exist, here!
 
 
-train_data = json.load(open('/home/baskar/Documents/coc/train_dataset_warlog.json')) # train dataset 
-test_data = json.load(open('/home/baskar/Documents/coc/test_dataset_warlog.json')) # test dataset
+train_data = json.load(open('train_dataset_warlog.json')) # train dataset 
+test_data = json.load(open('test_dataset_warlog.json')) # test dataset
 
 log = []
 log_t = []
