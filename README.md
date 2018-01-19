@@ -24,3 +24,61 @@ opponent clan:
 outputs:
 win = 1 or lose = 0
 for your information, i have considered win as 1 and lose as 0
+
+
+output:
+"OUTPUT
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 0.0
+actual output: 1.0 ......predicted output: 1.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+actual output: 0.0 ......predicted output: 0.0
+acc: 96.15%
+"
