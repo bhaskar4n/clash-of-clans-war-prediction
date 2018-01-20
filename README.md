@@ -22,7 +22,7 @@ outputs:
 win = 1 or lose = 0.
 for your information, i have considered win as 1 and lose as 0
 output:
-```OUTPUT
+```PREDICTED RESULTS
 data: 0 ...actual result 0.0 ......predicted result: 0.0
 data: 1 ...actual result 1.0 ......predicted result: 1.0
 data: 2 ...actual result 0.0 ......predicted result: 0.0
