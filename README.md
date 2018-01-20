@@ -4,7 +4,8 @@ I have created a clan war prediction python program using keras machine learning
 
 for this war prediction, I have collected datasets from the coc warlog.
 
-1st half dataset - testing
+1st half dataset - testing.
+
 2nd half dataset - training
 
 for testing the neural network, you can use your own clan warlog data.
