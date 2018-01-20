@@ -8,7 +8,7 @@ for this war prediction, I have collected datasets from the coc warlog.
 
 2nd half dataset - training
 
-for testing the neural network, you can use your own clan warlog data.
+for training the neural network, you can use your own clan warlog data.
 ```
 inputs for neural network:
 1. clan Level
@@ -17,15 +17,12 @@ inputs for neural network:
 4. teamSize
 opponent clan:
 5. clanLevel
-
  ```
 outputs:
 win = 1 or lose = 0.
 for your information, i have considered win as 1 and lose as 0
-
 output:
 ```OUTPUT
-  OUTPUT
 data: 0 ...actual result 0.0 ......predicted result: 0.0
 data: 1 ...actual result 1.0 ......predicted result: 1.0
 data: 2 ...actual result 0.0 ......predicted result: 0.0
@@ -56,6 +53,4 @@ data: 26 ...actual result 0.0 ......predicted result: 0.0
 data: 27 ...actual result 1.0 ......predicted result: 0.0
 data: 28 ...actual result 0.0 ......predicted result: 0.0
 acc: 96.55%
-
-
 ```
