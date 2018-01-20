@@ -2,13 +2,12 @@ clash of clan war prediction
 
 I have created a clan war prediction python program using keras machine learning library.
 
-for this war prediction, I have created a train datasets and test datasets and these datasets are collected from the coc warlog.
+for this war prediction, I have collected datasets from the coc warlog.
 
 1st half dataset - testing
 2nd half dataset - training
 
 for testing the neural network, you can use your own clan warlog data.
-
 ```
 inputs for neural network:
 1. clan Level
