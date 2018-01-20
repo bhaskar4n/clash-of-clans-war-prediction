@@ -4,22 +4,20 @@ I have created a clan war prediction python program using keras machine learning
 
 for this war prediction, I have created a train datasets and test datasets and these datasets are collected from the coc warlog.
 
-for training the neural network,  i have used <strong> train_dataset_warlog.json</strong> file and this data is from my clan warlog. 
+1st half dataset - testing
+2nd half dataset - training
 
-for testing the neural network, i have used <strong>test_dataset_warlog.json</strong> file and this data is collected from an another clan warlog.
 for testing the neural network, you can use your own clan warlog data.
+
 ```
 inputs for neural network:
-1. destruction percentage
-2. clan Level
-3. stars
-4. attacks
-5. expEarned
-6. teamSize
+1. clan Level
+2. attacks
+3. expEarned
+4. teamSize
 opponent clan:
-7. clanLevel
-8. stars
-9. destruction percentage 
+5. clanLevel
+
  ```
 outputs:
 win = 1 or lose = 0.
@@ -27,58 +25,37 @@ for your information, i have considered win as 1 and lose as 0
 
 output:
 ```OUTPUT
-  test war log            predicted output
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 0.0
-actual output: 1.0 ......predicted output: 1.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-actual output: 0.0 ......predicted output: 0.0
-acc: 96.15%
+  OUTPUT
+data: 0 ...actual result 0.0 ......predicted result: 0.0
+data: 1 ...actual result 1.0 ......predicted result: 1.0
+data: 2 ...actual result 0.0 ......predicted result: 0.0
+data: 3 ...actual result 0.0 ......predicted result: 0.0
+data: 4 ...actual result 0.0 ......predicted result: 0.0
+data: 5 ...actual result 0.0 ......predicted result: 0.0
+data: 6 ...actual result 0.0 ......predicted result: 0.0
+data: 7 ...actual result 1.0 ......predicted result: 1.0
+data: 8 ...actual result 0.0 ......predicted result: 0.0
+data: 9 ...actual result 0.0 ......predicted result: 0.0
+data: 10 ...actual result 0.0 ......predicted result: 0.0
+data: 11 ...actual result 0.0 ......predicted result: 0.0
+data: 12 ...actual result 0.0 ......predicted result: 0.0
+data: 13 ...actual result 0.0 ......predicted result: 0.0
+data: 14 ...actual result 0.0 ......predicted result: 0.0
+data: 15 ...actual result 1.0 ......predicted result: 1.0
+data: 16 ...actual result 0.0 ......predicted result: 0.0
+data: 17 ...actual result 0.0 ......predicted result: 0.0
+data: 18 ...actual result 0.0 ......predicted result: 0.0
+data: 19 ...actual result 1.0 ......predicted result: 1.0
+data: 20 ...actual result 1.0 ......predicted result: 1.0
+data: 21 ...actual result 0.0 ......predicted result: 0.0
+data: 22 ...actual result 1.0 ......predicted result: 1.0
+data: 23 ...actual result 1.0 ......predicted result: 1.0
+data: 24 ...actual result 1.0 ......predicted result: 1.0
+data: 25 ...actual result 0.0 ......predicted result: 0.0
+data: 26 ...actual result 0.0 ......predicted result: 0.0
+data: 27 ...actual result 1.0 ......predicted result: 0.0
+data: 28 ...actual result 0.0 ......predicted result: 0.0
+acc: 96.55%
+
+
 ```
