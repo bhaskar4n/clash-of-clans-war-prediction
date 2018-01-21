@@ -1,6 +1,6 @@
-clash of clan war prediction
+<h3>clash of clan war prediction</h3>
 
-I have created a clan war prediction python program using keras machine learning library.
+clan war prediction using keras machine learning library.
 
 for this war prediction, I have collected datasets from the coc warlog.
 
