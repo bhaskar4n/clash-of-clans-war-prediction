@@ -5,7 +5,7 @@ import json
 import sys
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
-train_data = json.load(open('/home/baskar/Documents/coc/train_dataset_warlog.json')) # train dataset 
+train_data = json.load(open('train_dataset_warlog.json')) # train dataset 
 log = []
 log_t = []
 for i in train_data['items']:
