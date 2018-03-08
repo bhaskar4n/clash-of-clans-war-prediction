@@ -1,3 +1,5 @@
+if you have any ideas, please feel free to share with me.
+
 <h3>clash of clan war prediction</h3>
 
 clan war prediction using keras machine learning library.
